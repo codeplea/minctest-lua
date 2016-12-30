@@ -19,19 +19,20 @@ failing test code was on.
 
 ##Example
 
-    require "minctest"
+```lua
+require "minctest"
 
-    lrun("test1", function()
-        lok('a' == 'a');          --assert true
-    end)
+lrun("test1", function()
+    lok('a' == 'a');          --assert true
+end)
 
-    lrun("test2", function()
-        lequal(5, 5);             --compare integers
-        lfequal(5.5, 5.5);        --compare floats
-    end)
+lrun("test2", function()
+    lequal(5, 5);             --compare integers
+    lfequal(5.5, 5.5);        --compare floats
+end)
 
-    return lresults();            --show results
-
+return lresults();            --show results
+```
 
 That produces the following output:
 
