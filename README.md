@@ -17,6 +17,11 @@ failing test code was on.
 - Has assertion for checking float equality.
 - Released under the zlib license - free for nearly any use.
 
+## Installation
+
+You can either copy `minctest.lua` into your project, or if you use luarocks
+run `luarocks install minctest`.
+
 ## Example
 
 ```lua
