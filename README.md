@@ -1,4 +1,4 @@
-#Minctest
+# Minctest
 
 This is a Lua port of [Minctest](https://codeplea.com/minctest), a very
 minimal unit-testing "framework" originally written in ANSI C. It's handy when
@@ -8,7 +8,7 @@ Basically, it implements assertion and equal functions. It'll track and time
 how many tests pass and fail. Failed tests will also display which line the
 failing test code was on.
 
-##Features
+## Features
 
 - Contained in a single file.
 - Reports file and line number for failed assertions.
@@ -17,7 +17,7 @@ failing test code was on.
 - Has assertion for checking float equality.
 - Released under the zlib license - free for nearly any use.
 
-##Example
+## Example
 
 ```lua
 require "minctest"
@@ -42,10 +42,10 @@ That produces the following output:
 
 
 
-##Hints
+## Hints
      All functions start with the letter 'l'.
 
 
-##Users
+## Users
 
 If you're using Minctest in your project, let me know. I could add a link back.
