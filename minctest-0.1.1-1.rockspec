@@ -1,7 +1,8 @@
 package = "minctest"
 version = "0.1.1-1"
 source = {
-   url = "git+https://github.com/codeplea/minctest-lua.git"
+   url = "git+https://github.com/codeplea/minctest-lua.git",
+   tag = "v0.1.1"
 }
 description = {
    summary = "very minimal unit-testing \"framework\" for Lua",
